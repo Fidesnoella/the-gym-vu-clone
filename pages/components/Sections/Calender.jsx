@@ -7,17 +7,17 @@ import right from "../../assets/chevron-right-solid.svg"
 export default function Calender(props) {
     return (
         <Wrapper>
-            <div className="bg-[#fefefe] px-24 py-16">
-                <div className="flex justify-between">
+            <div className="bg-[#fefefe] px-3 md:px-24 py-16">
+                <div className="flex flex-col md:flex-row justify-between">
                     <h1 className="text-[2.375rem] text-[#0077b3]">Calender</h1>
                     <div>
-                        <form action="#" className="flex gap-3">
+                        <form action="#" className="flex flex-col md:flex-row gap-3">
                             <input type="text" placeholder="All Categories" className="shadow-3xl p-4" />
                             <input type="text" placeholder="Date" className="shadow-3xl p-4" />
                         </form>
                     </div>
                 </div>
-                <div className="grid grid-cols-4  py-10">
+                <div className="grid md:grid-cols-4 py-10">
                     {
                         [1, 2, 3, 4].map((item, i) => {
                             return (

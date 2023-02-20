@@ -8,26 +8,26 @@ export default function Events() {
 
     return (
         <Wrapper>
-            <div className="flex px-20 pt-5 gap-10 items-center p-10 bg-white pb-32">
-                <div className="flex gap-8 items-center text-lg">
-                    <Image src={graduation} width={40} />
+            <div className="flex px-2 md:px-20 pt-5 gap-10 items-center py-3 md:py-14 bg-white pb-32 justify-center overflow-hidden">
+                <div className="flex flex-col md:flex-row  gap-2 md:gap-8 items-center text-lg">
+                    <Image src={graduation} className="w-5 md:w-10" />
                     <p>31.704 students</p>
                 </div>
-                <div className="flex gap-8 items-center text-lg">
-                    <Image src={graduation} width={40} />
+                <div className="flex flex-col md:flex-row   gap-2 md:gap-8 items-center text-lg">
+                    <Image src={graduation} className="w-5 md:w-10" />
                     <p>31.704 students</p>
                 </div>
-                <div className="flex gap-8 items-center text-lg">
-                    <Image src={graduation} width={40} />
+                <div className="flex flex-col md:flex-row   gap-2 md:gap-8 items-center text-lg">
+                    <Image src={graduation} className="w-5 md:w-10" />
                     <p>31.704 students</p>
                 </div>
-                <div className="flex gap-8 items-center text-lg">
-                    <Image src={graduation} width={40} />
+                <div className="flex flex-col md:flex-row   gap-2 md:gap-8 items-center text-lg">
+                    <Image src={graduation} className="w-5 md:w-10" />
                     <p>31.704 students</p>
                 </div>
             </div>
-            <div className="bg-[#faf7f5] grid grid-cols-2 gap-4 px-20 py-14">
-                <div className="bg-white p-4 -mt-24 shadow-3xl">
+            <div className="bg-[#faf7f5] grid  md:grid-cols-2  gap-2 md:gap-4 px-3 md:px-20 py-14">
+                <div className="bg-white p-4 -mt-28 md:-mt-24 shadow-3xl">
                     <div className="flex justify-between px-3 py-6">
                         <h1 className="text-[#0077b3] text-[2.375rem]">Education</h1>
                         <span><Image src={arrowAmst} width={30} /></span>
@@ -42,7 +42,7 @@ export default function Events() {
                         }
                     </div>
                 </div>
-                <div className="bg-white p-4 -mt-24 shadow-3xl">
+                <div className="bg-white p-4 -mt-0 md:-mt-24 shadow-3xl">
                     <div className="flex justify-between px-3 py-6">
                         <h1 className="text-[#0077b3] text-[2.375rem]">Research</h1>
                         <span><Image src={arrowAmst} width={30} /></span>

@@ -5,8 +5,8 @@ import Wrapper from "../wrapper";
 export default function Footer(props) {
     return (
         <Wrapper>
-            <div className="bg-[#0077b3] text-white text-base leading-[1.6875rem] py-10 pl-24">
-                <div className="flex gap-5">
+            <div className="bg-[#0077b3] text-white text-base leading-[1.6875rem] py-10 pl-3 md:pl-24">
+                <div className="flex flex-wrap gap-5">
                     {
                         [1, 2, 3, 4, 5, 6].map((item, i) => {
                             return (
@@ -18,7 +18,9 @@ export default function Footer(props) {
                         })
                     }
                 </div>
-                <p className="pt-4">Copyright © 2023 - Vrije Universiteit Amsterdam</p>
+                <div>
+                    <p className="pt-4">Copyright © 2023 - Vrije Universiteit Amsterdam</p>
+                </div>
             </div>
         </Wrapper>
     );

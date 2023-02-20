@@ -9,8 +9,8 @@ export default function NewsCard({ date, text }) {
             </div>
             <div className="flex flex-col gap-4">
                 <div className='flex flex-col gap-3'>
-                    <h1 className="text-[#3b2171] text-lg">{date}</h1>
-                    <p className="text-2xl text-[#333333]">{text}</p>
+                    <h1 className="text-[#3b2171] text-base md:text-lg">{date}</h1>
+                    <p className="text-lg md:text-2xl text-[#333333]">{text}</p>
                 </div>
                 <div className='self-end'>
                     <Image src={arrow} width={20} />
