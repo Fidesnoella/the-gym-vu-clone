@@ -13,13 +13,13 @@ export default function Hero(props) {
                         <h1 className="text-[#333333] text-[2.0625rem] md:text-[2.8125rem] leading-[2.5rem] md:leading-[3.75rem] font-light max-w-[900px]">You don’t just become something, you become someone</h1>
                     </div>
                     <div className="flex-col md:flex-row flex items-start  md:items-center ml-0 md:ml-40 mr-0 md:mr-40 relative z-20">
-                        <div className="bg-[#0077b3] flex-none md:flex-1 p-5 sm:p-10">
+                        <div className="bg-[#0077b3] flex-none- basis-[70%]- md:flex-1 p-5 sm:p-10 w-full md:w-auto ">
                             <span className="border-b-2 border-white text-white flex justify-between">
                                 <input type="text" placeholder="Search..." className="text-xl md:text-2xl outline-none bg-[#0077b3] placeholder-white" />
                                 <Image src={Search} width={20} />
                             </span>
                         </div>
-                        <div className="bg-white text-[#0077b3] flex justify-between px-3 gap-6 py-10 items-center shadow-3xl">
+                        <div className="bg-white text-[#0077b3] flex justify-between px-3 md:flex-1 gap-6 py-10 items-center shadow-3xl w-full md:w-auto">
                             <div className="text-xl md:text-2xl">About VU Amsterdam</div>
                             <div>
                                 <Image src={arrow} width={20} />
