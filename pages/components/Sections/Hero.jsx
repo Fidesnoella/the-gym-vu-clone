@@ -8,7 +8,7 @@ export default function Hero(props) {
     return (
         <>
             <Wrapper>
-                <div className="bg-white shadow-4xl pt-28 overflow-hidden">
+                <div className="bg-white shadow-4xl pt-2 md:pt-28 overflow-hidden">
                     <div className="flex sm:justify-center items-start p-10">
                         <h1 className="text-[#333333] text-[2.0625rem] md:text-[2.8125rem] leading-[2.5rem] md:leading-[3.75rem] font-light max-w-[900px]">You don’t just become something, you become someone</h1>
                     </div>
