@@ -8,19 +8,19 @@ export default function Hero(props) {
     return (
         <>
             <Wrapper>
-                <div className="bg-white shadow-4xl pt-2 md:pt-28 overflow-hidden">
-                    <div className="flex sm:justify-center items-start p-10">
+                <div className="bg-white shadow-4xl pt-2 md:pt-16 overflow-hidden">
+                    <div className="flex px-6 lg:px-0 lg:justify-center items-start pt-8 sm:pt-10 py-11 sm:py-[3.75rem]">
                         <h1 className="text-[#333333] text-[2.0625rem] md:text-[2.8125rem] leading-[2.5rem] md:leading-[3.75rem] font-light max-w-[900px]">You don’t just become something, you become someone</h1>
                     </div>
-                    <div className="flex-col md:flex-row flex items-start  md:items-center ml-0 md:ml-40 mr-0 md:mr-40 relative z-20">
-                        <div className="bg-[#0077b3] flex-none- basis-[70%]- md:flex-1 p-5 sm:p-10 w-full md:w-auto ">
-                            <span className="border-b-2 border-white text-white flex justify-between">
-                                <input type="text" placeholder="Search..." className="text-xl md:text-2xl outline-none bg-[#0077b3] placeholder-white" />
+                    <div className="flex-col md:flex-row flex items-start  md:items-center ml-0 lg:ml-40 mr-0 lg:mr-40 relative z-20">
+                        <div className="bg-[#0077b3]  md:flex-1 px-3 md:px-10 py-5 sm:py-8 w-full lg:w-auto ">
+                            <span className="border-b border-white text-white flex justify-between">
+                                <input type="text" placeholder="Search..." className="text-xl md:text-[1.375rem] leading-[2.125rem] font-light outline-none bg-[#0077b3] placeholder-white" />
                                 <Image src={Search} width={20} />
                             </span>
                         </div>
-                        <div className="bg-white text-[#0077b3] flex justify-between px-3 md:flex-1 gap-6 py-10 items-center shadow-3xl w-full md:w-auto">
-                            <div className="text-xl md:text-2xl">About VU Amsterdam</div>
+                        <div className="bg-white text-[#0077b3] flex justify-between px-4 md:flex-1 gap-6 py-[2.1875rem] items-center shadow-3xl w-full lg:w-auto">
+                            <div className="text-xl font-light md:text-[1.375rem] leading-[1.875rem]">About VU Amsterdam</div>
                             <div>
                                 <Image src={arrow} width={20} />
                             </div>

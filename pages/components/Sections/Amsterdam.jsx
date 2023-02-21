@@ -5,7 +5,7 @@ export default function Amsterdam() {
     return (
         <Wrapper>
             <div className="bg-white p-2 md:p-16">
-                <h1 className="px-3 md:px-24 font-light text-[1.875rem] md:text-[2.375rem] text-[#cc4100] leading-[2.25rem] md:leading-[3.5rem] py-5">We are VU Amsterdam</h1>
+                <h1 className="px-5 xl:px-[8.25rem] font-light text-[1.875rem] md:text-[2.375rem] text-[#cc4100] leading-[2.25rem] md:leading-[3.5rem] py-5">We are VU Amsterdam</h1>
                 <div className="flex gap-3 overflow-x-auto">
                     {
                         [1, 2, 3, 4].map((item, i) => {
