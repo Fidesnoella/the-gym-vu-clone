@@ -8,3 +8,7 @@
 .scroll-hidden::-webkit-scrollbar {
     display: none;
 } 
+.impact{
+    -webkit-clip-path: polygon(16% 0, 100% 0%, 100% 57%, 0 57%, 0 0, 10% 0, 14% 5%);
+  clip-path: polygon(17% 0, 100% 0%, 100% 100%, 0 100%, 0 0, 11.2% 0, 14.1% 7%);
+  }

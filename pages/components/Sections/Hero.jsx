@@ -9,10 +9,10 @@ export default function Hero(props) {
         <>
             <Wrapper>
                 <div className="bg-white shadow-4xl pt-2 md:pt-16 overflow-hidden">
-                    <div className="flex px-6 lg:px-0 lg:justify-center items-start pt-8 sm:pt-10 py-11 sm:py-[3.75rem]">
-                        <h1 className="text-[#333333] text-[2.0625rem] md:text-[2.8125rem] leading-[2.5rem] md:leading-[3.75rem] font-light max-w-[900px]">You don’t just become something, you become someone</h1>
+                    <div className="flex px-6 lg:px-0  pt-8 sm:pt-10 py-11 sm:py-[3.75rem]">
+                        <h1 className="text-[#333333] text-[2.0625rem] md:text-[2.8125rem] leading-[2.5rem] md:leading-[3.75rem] font-light max-w-[904px] pl-5 lg:pl-[13.5rem]">You don’t just become something, you become someone</h1>
                     </div>
-                    <div className="flex-col md:flex-row flex items-start  md:items-center ml-0 lg:ml-40 mr-0 lg:mr-40 relative z-20">
+                    <div className="flex-col md:flex-row flex items-start md:items-center mx-0 lg:mx-[8.25rem] relative z-20">
                         <div className="bg-[#0077b3]  md:flex-1 px-3 md:px-10 py-5 sm:py-8 w-full lg:w-auto ">
                             <span className="border-b border-white text-white flex justify-between">
                                 <input type="text" placeholder="Search..." className="text-xl md:text-[1.375rem] leading-[2.125rem] font-light outline-none bg-[#0077b3] placeholder-white" />
@@ -26,7 +26,6 @@ export default function Hero(props) {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </Wrapper>
             <div className="relative -mt-0 md:-mt-10 bg-[#f0edeb]">

@@ -42,7 +42,7 @@ export default function Featured() {
                     </div>
                     <div className="flex flex-col gap-3">
                         <h1 className="text-[#008053] px-6 md:px-0 font-light text-[1.875rem] md:text-[2.375rem]">Featured</h1>
-                        <div className="bg-white p-4 shadow-none md:shadow-3xl flex flex-col justify-between py-12">
+                        <div className="bg-white p-4 shadow-none md:shadow-3xl flex flex-col justify-between py-14">
                             <div className="flex flex-col gap-1">
                                 {
                                     ["Campus tour", "Study guide", "VU Magazine"].map((item, index) => {

@@ -3,7 +3,7 @@ import Wrapper from "../wrapper";
 import arrow from "../../assets/arrow.svg"
 import left from "../../assets/chevron-left-solid.svg"
 import right from "../../assets/chevron-right-solid.svg"
-import down from "../../assets/chevron-down-solid.svg"
+
 
 export default function Calender() {
 
@@ -74,15 +74,14 @@ export default function Calender() {
                         }
                     </div>
                 </div>
-
                 <div className="border-t border-[#0077b3] flex justify-between">
                     <p className=" py-5 flex gap-2 text-lg items-center">View Calender <span><Image src={arrow} width={15} /></span ></p>
                     <div className="flex gap-8 bg-[#dff2fd] py-3 px-6 cursor-pointer">
-                        <Image src={left} width={18} />
-                        <Image src={right} width={18} />
+                        <span ><Image src={left} width={18} onClick={() => slide.slidePrev()} /></span>
+                        <span ><Image src={right} width={18} onClick={() => slide.slideNext()} /></span>
                     </div>
                 </div>
-            </div>
-        </Wrapper>
+            </div >
+        </Wrapper >
     );
 }
