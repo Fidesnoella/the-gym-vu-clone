@@ -1,6 +1,6 @@
 import Image from "next/image";
-import right from "../../assets/chevron-right-solid.svg"
-import left from "../../assets/chevron-left-solid.svg"
+import right from "../../public/assets/chevron-right-solid.svg"
+import left from "../../public/assets/chevron-left-solid.svg"
 import Wrapper from "../wrapper";
 import AmsterdamCard from "../Cards/AmsterdamCard";
 

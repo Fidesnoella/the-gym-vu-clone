@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Wrapper from "../wrapper";
 import NewsCard from "../Cards/NewsCard";
-import arrow from "../../assets/arrow.svg"
+import arrow from "../../public/assets/arrow.svg"
 
 export default function News() {
     return (

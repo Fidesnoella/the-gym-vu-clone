@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Wrapper from "../wrapper";
-import arrow from "../../assets/arrow.svg"
+import arrow from "../../public/assets/arrow.svg"
 
 export default function AmsterdamCard({ img, title }) {
     return (

@@ -3,13 +3,13 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { useRouter } from 'next/router';
 import Wrapper from "../wrapper";
-import Logo from "../../assets/VU-logo-nobg.svg"
-import user from "../../assets/user.svg"
-import search from "../../assets/magnifying.svg"
-import Menu from "../../assets/bars.svg"
-import xmark from "../../assets/xmark-solid.svg"
-import arrow from "../../assets/arrow.svg"
-import plus from "../../assets/plus-solid.svg"
+import Logo from "../../public/assets/VU-logo-nobg.svg"
+import user from "../../public/assets/user.svg"
+import search from "../../public/assets/magnifying.svg"
+import Menu from "../../public/assets/bars.svg"
+import xmark from "../../public/assets/xmark-solid.svg"
+import arrow from "../../public/assets/arrow.svg"
+import plus from "../../public/assets/plus-solid.svg"
 
 export default function Navbar() {
     const [show, setShow] = useState(false)

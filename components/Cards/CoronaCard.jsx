@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import arrow from "../../assets/arrow.svg"
+import arrow from "../../public/assets/arrow.svg"
 
 export default function CoronaCard({ title, text, color, style }) {
     return (

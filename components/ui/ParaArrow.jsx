@@ -1,5 +1,5 @@
 import Image from "next/image";
-import arrow from "../../assets/arrow.svg"
+import arrow from "../../public/assets/arrow.svg"
 
 export default function ParaArrow({ para, style }) {
     return (

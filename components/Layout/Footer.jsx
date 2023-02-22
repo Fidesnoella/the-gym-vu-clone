@@ -1,5 +1,5 @@
 import Image from "next/image";
-import arrow from "../../assets/arrow-right-solid.svg"
+import arrow from "../../public/assets/arrow-right-solid.svg"
 import Wrapper from "../wrapper";
 
 export default function Footer(props) {

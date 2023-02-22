@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Wrapper from "../wrapper";
-import david from "../../assets/david.jpeg"
-import arrow from "../../assets/arrow.svg"
-import left from "../../assets/chevron-left-solid.svg"
-import right from "../../assets/chevron-right-solid.svg"
-import dot from "../../assets/dot.png"
+import david from "../../public/assets/david.jpeg"
+import arrow from "../../public/assets/arrow.svg"
+import left from "../../public/assets/chevron-left-solid.svg"
+import right from "../../public/assets/chevron-right-solid.svg"
+import dot from "../../public/assets/dot.png"
 
 export default function Impact() {
     return (

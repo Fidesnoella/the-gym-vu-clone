@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Wrapper from "../wrapper";
-import Search from "../../assets/search.svg"
-import people from "../../assets/CH_C119530b_BA_home_hero_2200x720.jpeg"
-import arrow from "../../assets/arrow-amst.svg"
+import Search from "../../public/assets/search.svg"
+import people from "../../public/assets/CH_C119530b_BA_home_hero_2200x720.jpeg"
+import arrow from "../../public/assets/arrow-amst.svg"
 
 export default function Hero(props) {
     return (

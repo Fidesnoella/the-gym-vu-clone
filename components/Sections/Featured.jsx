@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Wrapper from "../wrapper";
-import Instagram from "../../assets/instagram.svg"
-import LinkedIn from "../../assets/linkedin.svg"
-import Facebook from "../../assets/facebook.svg"
-import Twitter from "../../assets/twitter.svg"
-import Youtube from "../../assets/youtube.svg"
+import Instagram from "../../public/assets/instagram.svg"
+import LinkedIn from "../../public/assets/linkedin.svg"
+import Facebook from "../../public/assets/facebook.svg"
+import Twitter from "../../public/assets/twitter.svg"
+import Youtube from "../../public/assets/youtube.svg"
 import ParaArrow from "../ui/ParaArrow";
 
 export default function Featured() {

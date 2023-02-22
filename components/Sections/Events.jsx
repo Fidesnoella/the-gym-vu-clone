@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Wrapper from "../wrapper";
-import graduation from "../../assets/graduation-cap-solid.svg"
-import arrowAmst from "../../assets/arrow-amst.svg"
+import graduation from "../../public/assets/graduation-cap-solid.svg"
+import arrowAmst from "../../public/assets/arrow-amst.svg"
 import ParaArrow from "../ui/ParaArrow";
-import earth from "../../assets/earth-americas-solid.svg"
-import medal from "../../assets/medal-solid.svg"
-import puzzle from "../../assets/puzzle-piece-solid.svg"
+import earth from "../../public/assets/earth-americas-solid.svg"
+import medal from "../../public/assets/medal-solid.svg"
+import puzzle from "../../public/assets/puzzle-piece-solid.svg"
 
 export default function Events() {
 
