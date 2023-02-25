@@ -77,8 +77,10 @@ export default function Calender() {
                 <div className="border-t border-[#0077b3] flex justify-between">
                     <p className=" py-5 flex gap-2 text-lg items-center">View Calender <span><Image src={arrow} width={15} /></span ></p>
                     <div className="flex gap-8 bg-[#dff2fd] py-3 px-6 cursor-pointer">
-                        <span ><Image src={left} width={18} onClick={() => slide.slidePrev()} /></span>
-                        <span ><Image src={right} width={18} onClick={() => slide.slideNext()} /></span>
+                        {/* <span ><Image src={left} width={18} onClick={() => slide.slidePrev()} /></span>
+                        <span ><Image src={right} width={18} onClick={() => slide.slideNext()} /></span> */}
+                        <span ><Image src={left} width={18} /></span>
+                        <span ><Image src={right} width={18} /></span>
                     </div>
                 </div>
             </div >

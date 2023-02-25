@@ -45,7 +45,7 @@ export default function Navbar() {
                             <span className="text-xl md:text-2xl">NL</span>
                             <span><Image src={user} width={20} /></span>
                             <span><Image src={search} width={20} /></span>
-                            <span onClick={() => setShow(!show)}><Image src={Menu} width={20} /></span>
+                            <span onClick={() => setShow(!show)} ><Image src={Menu} width={20} /></span>
                         </div>
                     </div>
                 </div>
@@ -53,10 +53,11 @@ export default function Navbar() {
             {
                 show && (
                     <Wrapper>
-                        <div className='h-screen bg-white  text-black top-0 duration-300 z-[9999] fixed inset-x-0 max-w-7xl mx-auto  overflow-auto pb-10'>
+                        <div className='h-screen bg-white  text-black top-0 z-[9999] fixed inset-x-0 max-w-7xl mx-auto  overflow-auto pb-10'>
                             <div className='flex justify-between bg-white'>
                                 <span />
-                                <span className="bg-[#f2efed] p-6 flex self-end cursor-pointer" onClick={() => setShow(!show)}><Image src={xmark} width={20} height={20} /></span>
+                                <span className="bg-[#f2efed] p-6 flex self-end cursor-pointer" onClick={() => setShow(!show)}><Image src={xmark} width={20} height={20} className="anime duration-300" />
+                                </span>
                             </div>
                             <div className='pl-3 md:pl-24 pt-32'>
                                 <div className='flex flex-col gap-10 text-lg text-black px-4'>
