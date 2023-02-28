@@ -1,4 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.scroll-hidden::-webkit-scrollbar {
+    display: none;
+} 
+.impact{
+    -webkit-clip-path: polygon(16% 0, 100% 0%, 100% 57%, 0 57%, 0 0, 10% 0, 14% 5%);
+  clip-path: polygon(17% 0, 100% 0%, 100% 100%, 0 100%, 0 0, 11.2% 0, 14.1% 7%);
+}
+
+.anime {
+    animation-name: rotate;
+    animation-duration: 2s ;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+        transition: translateY(100px);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
+
